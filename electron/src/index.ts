@@ -5,7 +5,13 @@ import {
 } from '@capacitor-community/electron'
 
 // The MainWindow object can be accessed via myCapacitorApp.getMainWindow()
-const myCapacitorApp = createCapacitorElectronApp()
+const myCapacitorApp = createCapacitorElectronApp({
+  mainWindow: {
+    windowOptions: {
+      webPreferences: { contextIsolation: false }
+    }
+  }
+})
 createCapacitorElectronDeepLinking(myCapacitorApp, {
   customProtocol: 'electronboogie'
 })
