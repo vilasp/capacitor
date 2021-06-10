@@ -1,0 +1,6 @@
+{
+  "appId": "se.carmenta.v3test",
+  "appName": "testing-cap-v3",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}

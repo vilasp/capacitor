@@ -1,0 +1,6 @@
+{
+  "appId": "com.cap.v3test",
+  "appName": "testing-cap-v3",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
